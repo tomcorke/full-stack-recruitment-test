@@ -1,7 +1,7 @@
 import React from 'react';
 
 import logo from './logo.svg';
-import STYLES from './Header.scss';
+import STYLES from './Header.module.scss';
 
 const getClassName = (className) => STYLES[className] || 'UNKNOWN';
 
