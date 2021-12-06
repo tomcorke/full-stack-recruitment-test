@@ -8,19 +8,21 @@
   "version": "1.0.0",
   "description": "Skyscanner full-stack recruitment test.",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "cross-env CI=true react-scripts test"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "cross-env CI=true react-app-rewired test"
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^9.0.2",
     "bpk-component-text": "^4.0.8",
     "bpk-mixins": "^22.0.1",
     "bpk-stylesheets": "^7.0.7",
     "cross-env": "^7.0.3",
     "react": "^16.11.0",
+    "react-app-rewired": "^2.1.8",
     "react-dom": "^16.11.0",
-    "react-test-renderer": "^16.11.0"
+    "react-scripts": "^4.0.3",
+    "react-test-renderer": "^16.11.0",
+    "sass": "^1.44.0"
   },
   "browserslist": [
     ">0.1%",
